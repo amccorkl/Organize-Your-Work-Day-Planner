@@ -17,6 +17,11 @@ body {
   line-height: 1;
 }
 
+.container {
+   max-width: 980px;
+   margin: 0 auto;
+}
+
 textarea {
   background: transparent;
   border: none;

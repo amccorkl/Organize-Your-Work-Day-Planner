@@ -49,3 +49,15 @@ $(".saveBtn").on("click", function() {
 
 
 //create a clear button next to the save button
+$(".clearBtn").on("click", function() {
+    var textArea = $(this).siblings("textarea");
+    textArea.val("");
+    var hourKey = $(this).attr("id").split("-")[1];
+    console.log(hourKey);
+    localStorage.removeItem(hourKey);
+    
+    console.log("Clear button working?");
+})
+
+
+
