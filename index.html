@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/cs/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -26,13 +26,103 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <!-- needs a moment connection in js -->
       <p id="currentDay" class="lead"></p>
+      <p id="currentHour" class="lead"></p>  
     </header>
+
     <div class="container">
       <!-- Timeblocks go here -->
+      <div id="07" class="row">
+        <div class="col-2 time-block hour">7:00am
+        </div>
+        <textarea name="name-07" id="user-07" class="textarea-content col-8 hour"></textarea>
+        <button id="btn-07" type="button" class="button col-1 saveBtn">Save</button>
+        
+        <button id="btn-07-clear" type="reset" class="btn col-1 clearBtn">Clear</button>
+      </div>
+
+      <div id="08" class="row">
+        <div class="col-2 time-block hour">8:00am
+        </div>
+        <textarea name="name-08" id="user-08" class="textarea-content col-9 hour"></textarea>
+        <button id="btn-08" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="09" class="row">
+        <div class="col-2 time-block hour">9:00am
+        </div>
+        <textarea name="name-08" id="user-08" class="textarea-content col-9"></textarea>
+        <button id="btn-08" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="10" class="row">
+        <div class="col-2 time-block hour">10:00am
+        </div>
+        <textarea name="name-10" id="user-10" class="textarea-content col-9"></textarea>
+        <button id="btn-10" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="11" class="row">
+        <div class="col-2 time-block hour ">11:00am
+        </div>
+        <textarea name="name-11" id="user-11" class="textarea-content col-9"></textarea>
+        <button id="btn-11" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="12" class="row">
+        <div class="col-2 time-block hour">12:00pm
+        </div>
+        <textarea name="name-12" id="user-12" class="textarea-content col-9"></textarea>
+        <button id="btn-12" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="13" class="row">
+        <div class="col-2 time-block hour">01:00pm
+        </div>
+        <textarea name="name-13" id="user-13" class="textarea-content col-9"></textarea>
+        <button id="btn-13" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="14" class="row">
+        <div class="col-2 time-block hour">02:00pm
+        </div>
+        <textarea name="name-14" id="user-14" class="textarea-content col-9"></textarea>
+        <button id="btn-14" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="15" class="row">
+        <div class="col-2 time-block hour">3:00pm
+        </div>
+        <textarea name="name-15" id="user-15" class="textarea-content col-9"></textarea>
+        <button id="btn-15" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="16" class="row">
+        <div class="col-2 time-block hour">4:00pm
+        </div>
+        <textarea name="name-16" id="user-16" class="textarea-content col-9"></textarea>
+        <button id="btn-16" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="17" class="row">
+        <div class="col-2 time-block hour">5:00pm
+        </div>
+        <textarea name="name-17" id="user-17" class="textarea-content col-9"></textarea>
+        <button id="btn-17" type="button" class="button col-1 saveBtn">Save</button>
+      </div>
+
+      <div id="18" class="row">
+        <div class="col-2 time-block hour">6:00pm
+        </div>
+        <textarea name="name-18" id="user-18" class="textarea-content col-9"></textarea>
+        <button id="btn-18" type="button" class="button col-1 saveBtn">Save</button>
+      </div>      
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/js/script.js"></script>
   </body>
 </html>
