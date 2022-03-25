@@ -1,8 +1,8 @@
-# Organize Your Work Day, Planner
+# Your Routine, An Hourly Planner
 
 
 ## **Description**
-A calendar application that allows the user to save their appointments and todo's by the hour. The app runs in the browser with dynamically updated HTML and CSS powered by javaScript. The app embeds Moment.js to create curent dates and times. The calendar highlights past, present and future through different colors. A delete button allows the user to clear their appointment.
+A calendar application that allows the user to save their appointments and todo's by the hour. The app runs in the browser with dynamically updated HTML and CSS powered by javaScript. The app embeds Moment.js to create curent dates and times. The calendar highlights past, present and future through different colors. An added delete button allows the user to clear their appointment.
 
 ### *Criteria*
 ```
@@ -22,18 +22,23 @@ THEN the saved events persist
 ```
 
 
-## Usage
+## *Usage*
 The following images show the app in full screen and mobile screen views. 
 
-![Your Routine full screen](./Assets/images/Your-Routine-2.png)
+![Your Routine, full screen](./Assets/images/Your-Routine-2.png)
 
-![Your Routine mobile view](./Assets/images/Your-Routine-3.png)
+![Your Routine, mobile view](./Assets/images/Your-Routine-3.png)
 
 
-## Deployment
-[]()
 
-### Credit for Libraries used
--Moment
--Bootstrap
--Font Awesome 
+## *Deployment*
+[Your Routine, An Hourly Planner  ](https://amccorkl.github.io/Your-Routine/)
+
+
+
+## *Credit for Libraries used*
+Moment
+
+Bootstrap
+
+FontAwesome 
