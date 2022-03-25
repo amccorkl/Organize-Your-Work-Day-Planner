@@ -2,7 +2,7 @@
 
 
 ## **Description**
-A calendar application that allows the user to save their appointments and todo's by the hour. The app runs in the browser with dynamically updated HTML and CSS powered by javaScript. The app embeds Moment.js to create curent dates and times. The calendar highlights past, present and future through different colors. An added delete button allows the user to clear their appointment.
+A calendar application that allows the user to save their appointments and todo's by the hour. The app runs in the browser with dynamically updated HTML and CSS powered by JavaScript. The app embeds Moment.js to create curent dates and times. The calendar highlights past, present and future through different colors. An added delete button allows the user to clear their appointment.
 
 ### *Criteria*
 ```
