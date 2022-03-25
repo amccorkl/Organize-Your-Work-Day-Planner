@@ -12,7 +12,6 @@ body {
    max-width: 980px;
 }
 
-
 textarea {
   background: transparent;
   border: none;
@@ -56,6 +55,7 @@ textarea {
   color: white;
 }
 
+/* The rows change color depending on the time, linked to Moment() */
 .past {
   background-color: #d3d3d3;
   color: white;
@@ -84,9 +84,7 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-/* .saveBtn:hover {
-  display: inline-block;
-} */
+/* hover for tooltip?  */
 
 .clearBtn {
   border-left: 1px solid black;
@@ -96,8 +94,7 @@ textarea {
   color: white;
 }
 
-
-
+/* resizing the screen to better fit mobile devices */
 @media screen and (max-width: 750px) {
   .time-block { 
     padding-top: 13px;

@@ -3,7 +3,7 @@ var dayTimeEl = $("#currentDay");
 var currentHourEl = $("#currentHour")
 var textAreaEl = $("#textarea-content");
 
-// WHEN I scroll down THEN I am presented with timeblocks for standard business hours -- list of dates that take information
+// timeblocks for standard business hours 
 // arrange them in an array and call in 1 function 
 var hoursVar = [$("#07"), $("#08"), $("#09"), $("#10"), $("#11"), $("#12"), $("#13"), $("#14"), $("#15"), $("#16"), $("#17"), $("#18")];
 
@@ -39,8 +39,7 @@ function colorCodeTimeBlocks() {
 //color blocks load immediately
 colorCodeTimeBlocks();
 
-// WHEN I click into a timeblock, THEN I can enter an event -- .val taken and prints on page
-// WHEN I click the save button for that timeblock THEN the text for that event is saved in local storage 
+// Save button sets information in local storage
 $(".saveBtn").on("click", function() {
     var userInput = $(this).siblings("textarea");
     localStorage.setItem(userInput.parent().attr("id"), JSON.stringify(userInput.val()));
@@ -48,7 +47,7 @@ $(".saveBtn").on("click", function() {
 })
 
 
-//create a clear button next to the save button
+//A clear button next to the save button removes info from local storage
 $(".clearBtn").on("click", function() {
     var textArea = $(this).siblings("textarea");
     textArea.val("");
