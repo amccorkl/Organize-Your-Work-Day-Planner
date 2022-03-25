@@ -44,7 +44,7 @@ colorCodeTimeBlocks();
 $(".saveBtn").on("click", function() {
     var userInput = $(this).siblings("textarea");
     localStorage.setItem(userInput.parent().attr("id"), JSON.stringify(userInput.val()));
-    console.log("is this working?");
+    console.log("save button working?");
 })
 
 
@@ -52,9 +52,7 @@ $(".saveBtn").on("click", function() {
 $(".clearBtn").on("click", function() {
     var textArea = $(this).siblings("textarea");
     textArea.val("");
-    var hourKey = $(this).attr("id").split("-")[1];
-    console.log(hourKey);
-    localStorage.removeItem(hourKey);
+    localStorage.removeItem(textArea.parent().attr("id"));
     
     console.log("Clear button working?");
 })
